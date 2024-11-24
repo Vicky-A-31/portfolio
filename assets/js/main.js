@@ -247,11 +247,10 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
+  
+})();
 
-
-  const year = document.getElementById('year');
+ const year = document.getElementById('year');
   let fullYear = new Date();
   let y = fullYear.getFullYear();
   year.innerText = y;
-  
-})();
