@@ -248,4 +248,9 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+
+  const year = document.getElementById('year');
+  let fullYear = new Date();
+  year.innerText = fullYear.getFullYear();
+  
 })();
