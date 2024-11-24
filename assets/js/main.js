@@ -251,6 +251,7 @@
 
   const year = document.getElementById('year');
   let fullYear = new Date();
-  year.innerText = fullYear.getFullYear();
+  let y = fullYear.getFullYear();
+  year.innerText = y;
   
 })();
