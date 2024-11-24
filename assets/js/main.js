@@ -250,7 +250,3 @@
   
 })();
 
- const year = document.getElementById('year');
-  let fullYear = new Date();
-  let y = fullYear.getFullYear();
-  year.innerText = y;
